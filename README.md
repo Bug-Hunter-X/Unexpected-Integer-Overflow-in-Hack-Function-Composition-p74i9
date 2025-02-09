@@ -1,0 +1,3 @@
+# Hack Integer Overflow Bug
+
+This repository demonstrates an uncommon bug in Hack related to integer overflow.  The code involves a series of function calls where an intermediate result exceeds the maximum representable integer value, leading to unexpected behavior. The solution involves using a type that can handle larger values to avoid the overflow or implement overflow checks to prevent incorrect calculations.
